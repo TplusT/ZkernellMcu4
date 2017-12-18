@@ -12,6 +12,6 @@ BYTE   Serial[512]    ;
 END_INTERNAL_PIC_MEMO
 
 static void main( void )
-{      volatile BYTE a;
+{      volatile BYTE a,b;
     
 }
