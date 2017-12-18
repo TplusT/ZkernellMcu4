@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="MainDialog.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SerialPort.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Pic\main.c">
+      <Filter>Sources\SourcePic</Filter>
+    </ClCompile>
+    <ClCompile Include="MainSystem.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Pic\main.h">
+      <Filter>Sources\SourcePic</Filter>
+    </ClInclude>
+    <ClInclude Include="PicCommon\compiler.h">
+      <Filter>Sources\CommonSourcePic</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Libraries">
+      <UniqueIdentifier>{80d5b105-811b-4ac3-8758-793b81eeeb19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes">
+      <UniqueIdentifier>{c9bb4e96-34e2-42ae-a5c2-b942fb20a015}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{ffd72996-0e6c-43d0-80ba-5a0a363704fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{b7a003ba-9edf-44ad-b299-5921b53bb831}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\SourcePic">
+      <UniqueIdentifier>{1de3ef68-616d-4c91-b03e-7ca3e7642bf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\CommonSourcePic">
+      <UniqueIdentifier>{77053a63-e2fd-4f4b-8872-a3fef6ab4de9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="1.ico">
+      <Filter>Resources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Main.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="genlibs\LogMgr.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="genlibs\MemoMgr.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="genlibs\QueueMgr2.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="genlibs\ThreadMgr.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

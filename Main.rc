@@ -1,0 +1,190 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Spanish (Spain, International Sort) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESN)
+LANGUAGE LANG_SPANISH, SUBLANG_SPANISH_MODERN
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAIN DIALOGEX 0, 0, 460, 234
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "C18 Emulator"
+MENU IDR_MENU_G
+FONT 8, "Arial Narrow", 400, 0, 0x0
+BEGIN
+    LISTBOX         IDC_LIST,7,7,446,204,WS_VSCROLL,WS_EX_CLIENTEDGE | WS_EX_LEFTSCROLLBAR
+    LTEXT           "",IDC_TIME,414,215,39,12,SS_CENTERIMAGE | WS_BORDER,WS_EX_RIGHT
+    PUSHBUTTON      "Clear",IDC_CLEAR,7,213,50,14
+    LTEXT           "",IDC_SIZEPIC,371,215,39,12,SS_CENTERIMAGE | WS_BORDER,WS_EX_RIGHT
+END
+
+IDD_SRL DIALOGEX 0, 0, 183, 84
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+CAPTION "Serial Configuration"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,34,63,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,85,63,50,14
+    COMBOBOX        IDC_PORT,7,7,51,44,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_SPEED,61,7,44,39,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_PARITY,107,7,21,43,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_DATA,131,7,21,53,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_STOP,155,7,21,50,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_MAIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 453
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 227
+    END
+
+    IDD_SRL, DIALOG
+    BEGIN
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+1                       ICON                    "1.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_MAIN AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "0c0a04b0"
+        BEGIN
+            VALUE "CompanyName", "PyV Family Emulators"
+            VALUE "FileDescription", "PyV Family Emulators Main Launcher"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "C18Emula.exe"
+            VALUE "LegalCopyright", "Copyright (C) 2017"
+            VALUE "OriginalFilename", "C18Emula.exe"
+            VALUE "ProductName", "C18Emula.exe"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0xc0a, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU_G MENU
+BEGIN
+    POPUP "Change Defaults"
+    BEGIN
+        MENUITEM "Serial A",                    SERIAL_COMA
+    END
+END
+
+#endif    // Spanish (Spain, International Sort) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
